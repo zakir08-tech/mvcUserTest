@@ -13,3 +13,5 @@ how to execute the test scenario?
 
 incase not able to run due to the execution system configuration issue:
 Run Runner.java from Eclipse or Intellij
+
+test report can be find under this location: ..\mvcUser\target\cucumber-reports
