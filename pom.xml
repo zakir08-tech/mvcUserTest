@@ -61,8 +61,15 @@
             <artifactId>junit</artifactId>
             <version>4.13.2</version>
         </dependency>
+        <dependency>
+	        <groupId>org.apache.maven.plugins</groupId>
+	        <artifactId>maven-surefire-plugin</artifactId>
+	        <version>2.22.2</version>
+        	<type>maven-plugin</type>
+    	</dependency>
     </dependencies>
     <build>
+            <testSourceDirectory>${project.basedir}/src/main/java/testrunner</testSourceDirectory>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
