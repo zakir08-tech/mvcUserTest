@@ -11,5 +11,5 @@ how to execute the test scenario?
 2. open project folder in cmd prompt ex: C:\Users\zakir\Documents\mvcUser>
 3. and hit the following command mvn test -Dtest=Runner ex: C:\Users\zakir\Documents\mvcUser>mvn test -Dtest=Runner
 
-incase not able to run due to the execution system comfiguration issue:
+incase not able to run due to the execution system configuration issue:
 Run Runner.java from Eclipse or Intellij
